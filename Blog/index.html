@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Blog</title>
+</head>
+<body>
+
+  <!--Cabeçalho-->
+  <header>
+  </header>
+
+  <!--Barra de Navegaão-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">TVDU</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+            Series
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">The Vampire Dires</a>
+            <a class="dropdown-item" href="#">The Originals</a>
+            <a class="dropdown-item" href="#">Legacies</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+            Personagens
+          </a>
+          <div class="dropdown-menu" >
+            <div class="part">
+              <a class="dropdown-item" href="#">Elena Gilbert (Vampira e dúplicata)</a>
+              <a class="dropdown-item" href="#">Stefan Salvatore (Vampiro)</a>
+              <a class="dropdown-item" href="#">Damon Salvatore (Vampiro)</a>
+              <a class="dropdown-item" href="#">Bonnie Bennett(Bruxa)</a>
+              <a class="dropdown-item" href="#">Niklaus Mikaelson (Híbrido Original)</a>
+              <a class="dropdown-item" href="#">Rebekah Mikaelson(Vampira Original)</a>
+              <a class="dropdown-item" href="#">Kol Mikaelson(Vampiro Original)</a>
+              <a class="dropdown-item" href="#">Hope Mikaelson(Tríbrida)</a>          
+            </div>
+            <div class="part">
+              <a class="dropdown-item" href="#">Josie Saltzman (Shiponer/Herege)</a>
+              <a class="dropdown-item" href="#">Lizze Saltzman (Shiponer/Herege) </a>
+              <a class="dropdown-item" href="#">Elijah Mikaelson(Vampiro Original)</a>
+              <a class="dropdown-item" href="#">Freya Mikaelson(Bruxa)</a>
+              <a class="dropdown-item" href="#">Katherine Pierce (Vampira e duplicata)</a>
+              <a class="dropdown-item" href="#">Caroline Forbes(Vampira) </a>
+              <a class="dropdown-item" href="#">Hayley Marshall(Híbrida)</a>
+              <div class="dropdown-divider"></div>
+            </div>
+             
+            
+            <a class="dropdown-item" href="#">Ver mais</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+            Espécies
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Vampiros</a>
+            <a class="dropdown-item" href="#">Bruxos</a>
+            <a class="dropdown-item" href="#">Lobisomen</a>
+            <a class="dropdown-item" href="#">Hereges</a>
+            <a class="dropdown-item" href="#">Tríbridos</a>
+            <a class="dropdown-item" href="#">Híbridos</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Ver mais</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Famílias</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Arvores Genealógicas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Cidades</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Digite aqui" aria-label="Search">
+        <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Pesquisar</button>
+      </form>
+    </div>
+  </nav>
+
+  <!--Carrossel-->
+  
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./imagens/tvd.jpeg" class="d-block w-100 " alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>TVD</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./imagens/to.jpeg" class="d-block w-100 alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>TO</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./imagens/lgc.jpeg" class="d-block w-100 alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Legacies</h5>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br>
+  <br>
+
+<!--Series-->
+<div class="container">
+  <h2 id="srs">Series</h2>
+  <div class="row">
+    <div class="col-md-4 sr text-center">
+      <img src="./imagens/The_Vampire_Diaries_TV_Logo.png" class="series" alt="">
+      <h4>The Vampires Daires</h4>
+      <p>Alguns meses depois que seus pais são mortos em um trágico acidente de carro, Elena Gilbert e seu irmão Jeremy tentam aplacar sua dor. Para Elena, que sempre foi popular e envolvida com a escola e amigos, é uma luta esconder sua tristeza do mundo. Ela se vê atraída por um novo estudante bonitão e misterioso, Stefan, sem saber que o jovem é um vampiro centenário fazendo o melhor para viver em paz entre os humanos. Seu irmão Damon, porém, é o típico estereótipo de vampiro, incluindo a violência e a brutalidade. Os irmãos travam uma guerra pelas almas de Elena e de todos na pequena cidade do estado da Virginia. Baseado na série de livros de by L.J. Smith.</p>
+      <button type="button" class="btn btn-outline-light">Ver mais</button>
+    </div>
+    <div class="col-md-4 sr text-center">
+      <img src="./imagens/the-originals-logo.jpg" class="series" alt="">
+      <h4>The Originals</h4>
+      <p>O vampiro Klaus retorna a Nova Orleans, que sua família ajudou a construir, para investigar rumores de uma conspiração contra ele, nesta série baseada em "The Vampire Diaries". Ele encontra seu antigo protegido, Marcel, que reina poderosamente sobre os seus habitantes, causando uma tensão crescente na comunidade sobrenatural. Klaus e seu irmão, Elijah, descobrem que o lobisomem Hayley caiu nas mãos de uma bruxa. Klaus e Elijah pretendem recuperar a cidade e, enquanto esperam para ver se o seu irmão, Rebekah, vai deixar Mystic Falls para se juntar a eles, decidem formar uma aliança com as bruxas para ajudar a promover sua causa.</p>
+      <button type="button" class="btn btn-outline-light">Ver mais</button>
+    </div>
+    <div class="col-md-4 sr text-center">
+      <img src="./imagens/Legacies.png" class="series" alt="">
+      <h4>Legacies</h4>
+      <p>Hope Mikaelson, descendente da linhagem mais poderosa de vampiros, lobisomens e bruxas, frequenta a Escola Salvatore para Jovens e Superdotados, um refúgio onde ela pode aprender a controlar suas habilidades e impulsos sobrenaturais</p>
+      <button type="button" class="btn btn-outline-light">Ver mais</button>
+    </div>
+  </div>
+</div>
+
+<div id="personagens">
+  
+  <div class="container">
+    <h2>Personagens Importantes</h2>
+    <div class="row">      
+      <div class="col-md-3 text-center">
+        <img class="personagem" src="./imagens/elena.jpg" alt="">
+        <h6>Elena Gilbert</h6>
+        <p>Elena Gilbert é uma menina doce que perdeu seus pais em um acidente e agora mora com sua tia Jenna e com seu irmão adotivo, Jeremy Gilbert.</p>
+        <button type="button" class="btn btn-light">Ver mais sobre esse personagem</button>
+      </div>
+      <div class="col-md-3 text-center">
+        <img class="personagem" src="./imagens/stefan.jpg" alt="">
+        <h6>Stefan Salvatore</h6>
+        <p>Stefan é um vampiro que é visto pela primeira vez se matriculando em Mystic Falls High School. Ele nasceu em Mystic Falls e agora voltou para a cidade, onde vive com seu tio Zach na Pensão Salvatore.</p>
+        <button type="button" class="btn btn-light">Ver mais sobre esse personagem</button>
+      </div>
+      <div class="col-md-3 text-center">
+        <img class="personagem" src="./imagens/damon.jpg" alt="">
+        <h6>Damon Salvatore</h6>
+        <p>Damon Salvatore é um dos dois principais protagonistas masculinos da The Vampire Diaries. Ele foi um grande antagonista na primeira parte da primeira temporada . Ele nasceu durante os anos 1800 e morou na cidade colonial de Mystic Falls com seu irmão mais novo, Stefan Salvatore</p>
+        <button type="button" class="btn btn-light">Ver mais sobre esse personagem</button>
+      </div>
+      <div class="col-md-3 text-center">
+        <img class="personagem" src="./imagens/bonnie.jpg" alt="">
+        <h6>Bonnie Bennet</h6>
+        <p>Bonnie Sheila Bennett St. John (Nascida: Bennett) é uma Bruxa muito poderosa e também uma das principais personagens femininas de The Vampire Diaries.</p>
+        <button type="button" class="btn btn-light">Ver mais sobre esse personagem</button>
+      </div>
+
+      <div class="col-md-3 text-center">
+        <img class="personagem" src="./imagens/caroline.jpg" alt="">
+        <h6>Caroline Forbes</h6>
+        <p>Caroline Elizabeth Forbes sempre teve um forte vínculo com seus amigos de infância, Elena Gilbert, Bonnie Bennett, Matt Donovan. Ela se tornou melhor amiga com Stefan Salvatore depois tornar uma vampira e ele se tornou seu mentor.</p>
+        <button type="button" class="btn btn-light">Ver mais sobre esse personagem</button>
+      </div>
+      <div class="col-md-3 text-center">
+        <img class="personagem" src="./imagens/klaus.jpg" alt="">
+        <h6>Klaus Mikaelson</h6>
+        <p>Niklaus Mikaelson é o deuteragonista de The Originals . Anteriormente, era um importante personagem recorrente no The Vampire Diaries , que servia inicialmente como antagonista na segunda temporada e acabou se tornando um personagem de apoio e protagonista na terceira temporada e nas quatro temporadas </p>
+        <button type="button" class="btn btn-light">Ver mais sobre esse personagem</button>
+      </div>
+      <div class="col-md-3 text-center">
+        <img class="personagem" src="./imagens/hope.jpg" alt="">
+        <h6>Hope Mikaelson</h6>
+        <p>Hope Andrea Mikaelson é considerada o ser mais podereso, sendo de uma espécies nova chamada tríbrida, que é uma mistura de bruxa, lobisomem e vampiro. Além disso, ela é filha do Híbrido Original Niklaus Mikaelson e da lobisomen alpha Hayley Marshall-Kenner,</p>
+        <button type="button" class="btn btn-light">Ver mais sobre esse personagem</button>
+      </div>
+      <div class="col-md-3 text-center">
+        <img class="personagem" src="./imagens/rebekah.jpg" alt="">
+        <h6>Rebekah Mikaelson</h6>
+        <p>Rebekah Mikaelson Ela é a única Vampira original feminina e a segunda filha de Mikael e Esther . Ela é a irmã mais nova de Freya Mikaelson , Finn Mikaelson , Elijah Mikaelsone Kol Mikaelson , a meia-irmã mais nova de Niklaus Mikaelson , a irmã mais velha de Henrik Mikaelson e a tia de um sobrinho não nascido e sem nome - o filho de Freya - e Niklaus filha com Hayley Marshall , Hope Mikaelson .</p>
+        <button type="button" class="btn btn-light">Ver mais sobre esse personagem</button>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<div id="especies">
+  <div class="container">
+    <h2 id="ep">Espécies principais</h2>
+    <div class="row ">
+      <div class="col-md-4 spc text-center">
+        <img src="./imagens/vamp.jpeg" class="espc" alt="">
+        <h5>Vampiro</h5>
+      </div>
+      <div class="col-md-4 spc text-center">
+        <img src="./imagens/bruxa.jpeg" class="espc" alt="">
+        <h5>Bruxas</h5>
+      </div>
+      <div class="col-md-4 spc text-center">
+        <img src="./imagens/lob.jpeg" class="espc" alt="">
+        <h5>Lobisomens</h5>        
+      </div>
+      <div class="col-md-4 spc text-center">
+        <img src="./imagens/hibrido.jpeg" class="espc" alt="">
+        <h5>Híbridos</h5>        
+      </div>
+      <div class="col-md-4 spc text-center">
+        <img src="./imagens/herege.jpeg" class="espc" alt="">
+        <h5>Herege</h5>        
+      </div>
+      <div class="col-md-4 spc text-center">
+        <img src="./imagens/tribrida.jpeg" class="espc" alt="">
+        <h5>Tríbridos</h5>        
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<div id="cidades">
+  
+  <div class="container">
+    <h2 id="cidds">Cidades</h2>
+    <div class="row">
+      <div class="col-md-6 cdd text-center">
+        <img src="./imagens/mystic falls.jpeg" alt="" class="cidd">
+        <h6>Mystic Falls</h6>
+        <p>Mystic Falls é uma pequena cidade na Virgínia. Embora primeiramente habitada pela família Bennett na década de 1690 em diante, foi fundada oficialmente em 1860 pelas famílias fundadoras. A cidade estava envolvida na Guerra Civil Americana. A cidade foi nomeada após a Ponte Wickery cair.</p>
+      </div>
+      <div class="col-md-6 cdd text-center">
+        <img src="./imagens/french quarter.jpeg" alt="" class="cidd">
+        <h6>Nova Orleans</h6>
+        <p>Em The Originals , Klaus viajou de Mystic Falls para o French Quarter em Nova Orleans para investigar uma dica de Katherine Pierce de que alguém estava tramando uma rebelião contra ele. Seu irmão Elijah logo seguiu Klaus para o French Quarter, onde eles decidiram ficar. Marcel Gerard e outros moradores do bairro costumam se referir coloquialmente a ele como "o Bairro".</p>
+      </div>
+    </div>
+  </div>
+</div>
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 ftr brd " >
+        <h3>TVDU</h3>
+        <br>
+        <p>TVDU é um universo de serié onde é descoberto que mundo sobrenatural existe, e através dessa descoberta gera grandes aventuras</p>
+      </div>
+      <div class="col-md-4 ftr brd" >
+        <h6>Tags</h6>
+        <br>
+        <button type="button" class="btn btn-outline-light">#Klaroline</button>
+        <button type="button" class="btn btn-outline-light">#Stelena</button>
+        <button type="button" class="btn btn-outline-light">#Delena</button>
+        <button type="button" class="btn btn-outline-light">#Klayley</button>
+        <button type="button" class="btn btn-outline-light">#Marbekah</button>
+        <button type="button" class="btn btn-outline-light">#Hosie</button>
+        <button type="button" class="btn btn-outline-light">#Benzo</button>
+
+      </div>
+      <div class="col-md-3 ftr brd text-center">
+        <h6>Locais para assitir</h6>
+        <br>
+        <div> 
+          <img src="./imagens/prime-video-.png" class="streaming" alt="">
+        </div>
+        <br>
+        <div> 
+          <img src="./imagens/HBO_Max.png" class="streaming" alt="">
+        </div>
+        <br>
+      </div>
+      <div class="col-md-2 ftr text-center" >
+        <h6>Follow me</h6>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+          </svg>                   
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+          </svg>
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+          </svg>
+       
+          <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+            <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</html>
